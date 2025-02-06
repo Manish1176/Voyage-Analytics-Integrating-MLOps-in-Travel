@@ -48,13 +48,20 @@ The dataset used in this project encompasses multiple aspects:
    ```
    streamlit run app.py
    ```
-3. Docker Build Command
+3. Docker Build Command:
+   ```
    docker build -t flight-pridiction .
+   ```
+   ```
    docker build -t gender-classification-app .
-   
-5. Run the container
+   ```   
+4. Run the container
+    ```
    docker run -p 5000:5000 flight-pridiction
+   ```
+   ```
    docker run -p 5000:5000 gender-classification-app
+   ```      
    
 ## Usage
 1. Enter your user code in the web interface
